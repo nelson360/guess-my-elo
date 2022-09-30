@@ -1,21 +1,19 @@
 <template>
-  <HeaderWorld/>
+  <HeaderComponent/>
   <p> place header</p>
-  <BodyComp/>
-  <FooterComponent/>
-  <FooterComponent/>
+  <BodyComponent/>
   <FooterComponent/>
 </template>
 
 <script>
-import HeaderWorld from './components/HeaderWorld.vue'
-import BodyComp from './components/BodyComp.vue'
-import FooterComponent from './components/FooterComponent.vue'
+import HeaderComponent from '/components/HeaderComponent.vue'
+import BodyComponent from '/components/BodyComponent.vue'
+import FooterComponent from '/components/FooterComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderWorld, BodyComp, FooterComponent
+    HeaderComponent, BodyComponent, FooterComponent
   }
 }
 </script>
