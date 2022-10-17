@@ -1,6 +1,11 @@
 <template>
 /* eslint-disable */
 <p>Chuck Norris has never blinked in his entire life. Never. M.C. Hammer learned the hard way that Chuck Norris can touch this. When Chuck Norris does a pushup, he’s pushing the Earth down. Chuck Norris can slam revolving doors. Chuck Norris beats rock, paper, scissors. Cannon balls, tanks, super destroyers, exploding stars — I could go on.</p>
+<p> Chuck Norris sleeps with a pillow under his gun.A bulletproof vest wears Chuck Norris for protection. Chuck Norris doesn’t read books. He stares them down until he gets the information he wants. Chuck Norris can clap with one hand. Chuck Norris can slam revolving doors. Chuck Norris once ordered a steak in a restaurant. The steak did what it was told.
+    Chuck Norris can make a slinky go upstairs. Mission Impossible was originally set in Chuck Norris’s house. Chuck Norris can clap with one hand. Death once had a near-Chuck-Norris experience. Chuck Norris’ tears cure cancer. Too bad he has never cried.
+
+</p>
+
 
 <body>
     <div class="row">
@@ -67,22 +72,30 @@
                         </select>
                     </div>
                 </div>
+                <div class="form-group">
+                    <label for="elobase" class="control-label col-xs-4 col-sm-6 col-md-4">Base time (min)</label>
+                    <div class="col-xs-4 col-sm-6 col-md-4">
+                        <input type="number" class="form-control" id="timeBase" value="5">
+                    </div>
+                </div>
             </form>
             <h5>Evaluation</h5>
             <pre id=evaluation></pre>
         </div>
+        <a-pagination v-model="current" :total="50" show-less-items/>
+        <Antd></Antd>
     </div>
 </body>
 </template>
 
 <script>
-import stockfish from 'stockfish'
+import Antd from "ant-design-vue";
 export default {
     name: 'BodyComponent',
-    methods: {
-        
-
-    },
+    components:{
+        Antd
+    }
+    
 }
 </script>
 
