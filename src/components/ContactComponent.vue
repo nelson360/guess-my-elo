@@ -1,10 +1,11 @@
 <template>
-    <p>
-        contact page
-    </p>
+<p>
+    contact page
+</p>
 </template>
+
 <script>
-    export default{
-        name:'ContactComponent',
-    }
+export default {
+    name: 'ContactComponent',
+}
 </script>

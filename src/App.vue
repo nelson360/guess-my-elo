@@ -1,8 +1,8 @@
 <template>
-  <HeaderComponent/>
-  <p> place header</p>
-  <BodyComponent/>
-  <FooterComponent/>
+<HeaderComponent />
+<p> place header</p>
+<BodyComponent />
+<FooterComponent />
 </template>
 
 <script>
@@ -11,11 +11,11 @@ import BodyComponent from './components/BodyComponent.vue'
 import FooterComponent from './components/FooterComponent.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HeaderComponent, BodyComponent, FooterComponent
-  }
+    name: 'App',
+    components: {
+        HeaderComponent,
+        BodyComponent,
+        FooterComponent
+    }
 }
 </script>
-
-
