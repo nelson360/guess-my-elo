@@ -1,5 +1,7 @@
 # guess-my-elo
 
+chess elo 
+chess elo tournament 
 ## Project setup
 ```
 npm install
